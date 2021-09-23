@@ -1,0 +1,479 @@
+* {
+margin: 0;
+padding: 0;
+}
+/* HEADER */
+  /* BACKGROUND */
+
+  /* LOGO */
+
+header {
+  display: inline-block;
+  position: fixed;
+  background-color: white;
+  height: 16%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-y: hidden;
+  top: 0px; 
+
+}
+}
+    .box1 {
+          display: inline-block;
+          position: fixed;
+          background-color: white;
+          height: 16%;
+          width: 100%;
+          margin-left: auto;
+          margin-right: auto;
+          overflow-y: hidden;
+        }
+
+    .box12 {
+              display: block;
+              position: sticky;
+              background-color: red;
+              height: 16%;
+              width: 100%;
+              margin-left: auto;
+              margin-right: auto;
+              border-color: black;
+              overflow-y: hidden;
+            }
+
+    .logo {
+      display: inline-block;
+      position: fixed;
+      height: 14%;
+      width: 17%;
+      left: 1%;
+      height: auto;
+    }
+
+    .maintittle {
+      display: inline-block;
+      position: fixed;
+      top: 1%;
+      left: 18%;
+      font-size: 3vw;
+      width: 20%;
+      font-family: Futura,Arial;
+      font-weight: 100;
+    }
+
+
+    #playbutton {
+      display: inline-block;
+      position: fixed;
+      bottom: 3vw;
+      left: 43vw;
+      width: 10vw;
+      background-color: white;
+      border-radius: 5px;
+      border-color: white;
+      font-family: Futura,Arial;
+      font-weight: lighter;
+      font-size: 2vw;
+    }
+
+    #playbtn {
+      display: inline-block;
+      position: fixed;
+      width: 4vw;
+      bottom: 2vw;
+      right: 45vw;
+    }
+
+  /* MEET THE DANCERS */
+
+    /* DIV */
+      .button1 {
+        display: inline-block;
+        position: fixed;
+        height: 15.2%;
+        width: 14%;
+        right: 31%;
+      }
+
+
+    /*IMG*/
+      .imgbuttonmeet {
+        display: inline-block;
+        position: fixed;
+        top: 2%;
+        right:39%;
+        width: 4.7%;
+        height: auto;
+      }
+
+    /*TEXT*/
+      .meetthedancers {
+        display: inline-block;
+        position: fixed;
+        top: 4%;
+        right: 30%;
+        font-family: Futura,Arial;
+        font-weight: lighter;
+        font-size: 1.5vw;
+        width: 9%;
+        color: black;
+      }
+
+  /* SEE THE CONCEPT */
+    /*DIV*/
+      .button2 {
+        display: inline-block;
+        position: fixed;
+        height: 15.2%;
+        width: 14%;
+        right: 16%;
+        background-color: white;
+      }
+
+
+    /*IMG*/
+      .buttonconcept {
+        display: inline-block;
+        position: fixed;
+        top: 2%;
+        right:24%;
+        width: 5.5%;
+        height:  auto;
+
+      }
+    /* TEXT */
+      .seetheconcept {
+        display: inline-block;
+        position: fixed;
+        top: 4%;
+        right: 15%;
+        font-family: Futura,Arial;
+        font-weight: lighter;
+        font-size: 1.5vw;
+        width: 9%;
+        color: black;
+      }
+
+  /* CONNECT WITH US */
+    /*DIV*/
+      .button3 {
+        display: inline-block;
+        position: fixed;
+        height: 15.2%;
+        width: 14%;
+        right: 1%;
+      }
+    /*IMG*/
+      .buttonconnect {
+        display: inline-block;
+        position: fixed;
+        top: 2%;
+        right:10%;
+        width: 5%;
+        height:  auto;
+      }
+    /*TEXT*/
+    .connectwithus {
+      display: inline-block;
+      position: fixed;
+      top: 4%;
+      right: 2.5%;
+      font-family: Futura,Arial;
+      font-weight: lighter;
+      font-size: 1.5vw;
+      width: 7%;
+      color: black;
+    }
+
+/* INDEX */
+
+.BackgroundVid {
+  display: block;
+  position: fixed;
+  top: 15.2%;
+  width: 100%;
+}
+
+.popup {
+  position: fixed;
+  display: none;
+  top: 17%;
+  left: 14vw;
+  width: 70vw;
+}
+
+.whiteback {
+  position: fixed;
+  display: block;
+  background-color: white;
+  width: 100%;
+  top: 15.2%;
+  height: 100%;
+  opacity: 0.5;
+  /* SHADOW NOT WORKING */
+}
+
+/* MEET THE TEAM */
+
+.head {
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  min-height: 100vh;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 120px;
+}
+
+.Val {
+  position: relative;
+  display: inline-block;
+  justify-content:center;
+  padding: 20px;
+  width: 30vw;
+
+}
+
+.Juanma {
+    position: relative;
+    display: inline-block;
+    justify-content:center;
+    padding: 20px;
+    width: 100vw;
+    background-color: white;
+    opacity: 0.95;
+  }
+/* SOCIAL MEDIA LOGOS  */
+  .InstagramLogo {
+    position: relative;
+    display: inline-block;
+    width: 4%;
+    left: 25vw;
+  }
+  .FacebookLogo {
+    position: relative;
+    display: inline-block;
+    width: 4%;
+  }
+  .GmailLogo {
+    position: relative;
+    display: inline-block;
+    width: 4%;
+  }
+.nametittle {
+  position: static;
+  display: block;
+  font-size: 500%;
+  font-family: Futura,Arial;
+  font-weight: lighter;
+  text-align: center;
+
+}
+
+.Intro {
+  display: block;
+  font-family: Futura,Arial;
+  font-weight: lighter;
+  font-size: 1vw;
+  text-align: center;
+}
+
+.Introjm {
+  display: block;
+  font-family: Futura,Arial;
+  font-weight: lighter;
+  font-size: 1vw;
+  text-align: center;
+  width: 40vw;
+  left: 50%;
+}
+
+.Instagram {
+  display: block;
+  font-family: Futura,Arial;
+  font-weight: lighter;
+  font-size: 1.3vw;
+  text-align: center;
+}
+
+.Facebook {
+  display: block;
+  font-family: Futura,Arial;
+  font-weight: lighter;
+  font-size: 1.3vw;
+  text-align: center;
+}
+
+.Email {
+  display: block;
+  font-family: Futura,Arial;
+  font-weight: lighter;
+  font-size: 1.3vw;
+  text-align: center;
+}
+
+.InstagramLogo{
+  display: inline-block;
+
+}
+
+.p1 {
+  display: block;
+  position: static;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+
+}
+
+.p2 {
+  display: block;
+  position: static;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.p3 {
+  display: block;
+  position: static;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.p4 {
+  display: block;
+  position: static;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.p5 {
+  display: block;
+  position: static;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.p6 {
+  display: block;
+  position: static;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.p7 {
+  display: block;
+  position: static;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+    padding: 15px;
+}
+
+
+/* SEE THE CONCEPT */
+
+.container1 {
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  min-height: 100vh;
+  flex-direction: row;
+  }
+
+.boxtwo {
+  position: relative;
+  display: inline-block;
+  height:21.7vw;
+  justify-content:center;
+  /* bottom: 7vw; */
+  top: 5vw;
+  font-family: Futura,Arial;
+  font-weight: lighter;
+  font-size: 1vw;
+  padding: 20px;
+  text-align: left;
+  background-color: white;
+    opacity: 0.95;
+}
+
+.filmc {
+  font-family: Futura,Arial;
+  font-weight: lighter;
+  font-size: 2.5vw;
+  text-align: center;
+
+
+}
+
+.boxone {
+  position: relative;
+  display: inline-block;
+  width: 40vw;
+    top: 5vw;
+  justify-content:center;
+  /* bottom: 7vw; */
+  padding: 15px;
+  background-color: white;
+    opacity: 0.95;
+}
+
+
+
+/* CONNECT */
+
+.formcontainer {
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  min-height: 100vh;
+  flex-direction: column;
+  }
+
+.Invite {
+  font-size: 450%;
+  font-family: Futura,Arial;
+  font-weight: lighter;
+  text-align: center;
+}
+
+input {
+  width: 30vw;
+  font-family: Futura,Arial;
+  font-weight: lighter;
+  font-size: 1vw;
+}
+
+input[type=text] {
+  padding: 6px 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+.form
+{ font-family: Futura,Arial;
+  font-weight: lighter;
+  font-size: 1.2vw;
+}
+
+input[type=submit] {
+  padding: 9px 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  width: 15vw;
+}
+
+.submit {
+  display: inline-block;;
+  position: relative;
+  left: 8vw;
+  justify-content:center;
+  align-items:center;
+}
