@@ -1,90 +1,66 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title> Letter </title>
-
-     <script src="Cjquery-3.6.0.min.js"> </script>
-
-    <!-- AOS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title> Dance & Connect </title>
+    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="style.css">
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Butterfly%20Kids">
   </head>
+
   <body>
 
-    <div class="Container">
+  <!-- VIDEOS  -->
+      <video class="BackgroundVid" src="https://www.commlab.nyuadim.com/MangF21/30_MF_-_Juan_Manuel_Rodriguez.mp4" autoplay loop muted poster="Thumbnail.png">
+          </video>
+          <div class="whiteback"> </div>
 
-       <!-- <img src="Untitled_Artwork.jpg" alt="Watercolor Sea" class="Firstimg"> -->
-
-       <div class="Containertwo">
-            <div class="Intro" data-aos="fade-zoom-in"
-            data-aos-offset="100"
-            data-aos-easing="ease-in-sine">
-              <p>
-                Dear mom and dad,
-
-                I write this letter to you because I believe I deserve a pet fish. I tried to get one for christmas, but Santa told me I need your approval for a fish. I want it for my birthday and here is why:
-              </p>
-            </div>
-
-         <div class="List" data-aos="fade-right"
-         data-aos-offset="300"
-         data-aos-easing="ease-in-sine">
-           <p> 1. I am an only child. It could be my company, and have fun adventures with me.</p>
-         </div>
-
-         <div class="List" data-aos="fade-right"
-         data-aos-offset="100"
-         data-aos-easing="ease-in-sine">
-           <p> 2. Victor and Maya got one last week.</p>
-         </div>
-
-         <div class="List" data-aos="fade-right"
-         data-aos-offset="100"
-         data-aos-easing="ease-in-sine">
-           <p> 3. I would take really really really good care of it. I would even take it out for walks.</p>
-         </div>
-
-         <div class="List" data-aos="fade-right"
-         data-aos-offset="100"
-         data-aos-easing="ease-in-sine">
-           <p>  4. With the money from my chores, I would buy it food and a big house to live in.</p>
-         </div>
-
-         <div class="List" data-aos="fade-right"
-         data-aos-offset="100"
-         data-aos-easing="ease-in-sine">
-           <p>  5. I am doing good in school. Mr.Ang even told me I might be in the most improved list next week. </p>
-         </div>
-
-         <div class="List" data-aos="fade-right"
-         data-aos-offset="100"
-         data-aos-easing="ease-in-sine">
-           <p>  6. I would give it a really pretty name. </p>
-         </div>
-
-         <div class="List" data-aos="fade-right"
-         data-aos-offset="100"
-         data-aos-easing="ease-in-sine">
-           <p>  7. I really really want one. </p>
-         </div>
+    <video id="popupvid" class="popup" src="https://www.commlab.nyuadim.com/MangF21/30_MF_-_Juan_Manuel_Rodriguez.mp4" controls poster="Thumbnail.png">
+    </video>
 
 
-         <div class="List last" data-aos="fade-right"
-         data-aos-offset="100"
-         data-aos-easing="ease-in-sine">
-           <p> Pretty Please? <br>
-               Love,
-               Benjamin. </p>
-         </div>
+<!-- HEADER -->
+<header>
+
+<div>
+  <div class="box1">
+
+  </div>
+
+      <a href="index.html">
+        <img class="logo "src="All Poses.png" alt="Three stick figures dancing.">
+      </a>
+
+      <h1 class="maintittle"> Dance & Connect</h1>
 
 
-       </div>
+      <a href="(2)Meet.html">
+        <div class="button1">
+            <img class="imgbuttonmeet"src="Pose 1.png" alt="Stick figure dancing.">
+            <h3 class="meetthedancers"> Meet the Dancers </h3>
+        </div>
+      </a>
 
+
+      <a href="(3)Concept.html">
+          <div class="button2">
+              <img class="buttonconcept"src="Pose 2.png" alt="Stick figure dancing.">
+              <h3 class="seetheconcept"> See the Concept</h3>
+          </div>
+      </a>
+
+      <a href="(4)Connect.html">
+          <div class="button3">
+              <img class="buttonconnect"src="Pose 3.png" alt="Stick figure dancing.">
+              <h3 class="connectwithus"> Connect with Us</h3>
+          </div>
+      </a>
     </div>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-    <script>AOS.init(); </script>
+  </header>
+
+<!-- PLAY BUTTON -->
+    <button id="playbutton" onclick="buttonHandler()">Play<img id="playbtn" src="Pose 1.png"></button>
+
+
+      <script src="script.js"> </script>
   </body>
 </html>
